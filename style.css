@@ -1,96 +1,108 @@
+
+
 body {
     background-color: gray;
 }
 
-.post {background-color: white;
-margin: auto;
-flex-direction: column;
-justify-content: flex-start;
-align-items: stretch;
-width: 575px;
-height: 630px;}
+.post {margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;;}
 
-.encabezado{ background-color: white;
- width: 100%;
- height: 8%;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
+.encabezado{ width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 span.logoencabezado {
-width: 0%;
-height: 80%;
-align-self: center;
-font-size: 1.7em;
-margin: 4px 4px 0px 8px;
-}
-span.textencabezado{
-align-self: flex-start;
-width: 85%;
-height: 80%;
-padding: 8px 10px 0px 10px;
-font-size: 1em;
-}
-span.punto{width: 4%;
-    height: 60%;
+    height: 80%;
+    width: 0%;
     align-self: center;
     font-size: 1.7em;
+    margin: 4px 4px 0px 8px;
+}
+span.textencabezado{
+    height: 80%;
+    width: 85%;
+    align-self: flex-start;
+    font-size: 1em;
+    padding: 8px 10px 0px 10px;
+}
+span.punto{ margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
 
 }
 .imagen{width:100%;
-height: 67%;
-display: flex;
-justify-content: center;
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    
+  
+  
 }
 
-.botones { background-color: rgb(255, 255, 255);
-width: 100%;
-height: 5%;
+.botones { width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-span.Corazon{width: 4%;
-    height: 80%;
-   margin: 4px 4px 0px 8px;
-    font-size: 1.7em;
-
+span.Corazon{ height: 80%;
+    width: 4%;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 4px 4px 0px 8px;
 }
 span.comentario{
-    margin: 4px 4px 0px 8px;
-    width: 4%;
     height: 80%;
+    width: 4%;
     align-self: center;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    margin: 4px 4px 0px 8px;
 }
     span.avionpapel{
-        margin: 4px 4px 0px 8px;
-        width: 4%;
         height: 80%;
+        width: 80%;
         align-self: center;
-        font-size: 1.7em;
+        font-size: 1.5em;
+        margin: 4px 4px 0px 8px;
 }
 span.guardar{
-    margin: 4px 4px 0px 400px;
-    font-size: 1.7em;
+    height: 80%;
+   width: 80%;
+    margin: 8px 0px 0px 360px;
     align-self: center;
+    font-size: 1.5em;
     
 }
-.gustar{font-family: "Roboto", sans-serif;
+.gustar {font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
-    font-variation-settings;
-      "wdth" 100;}
+    font-variation-settings:
+      "wdth" 100;
+    }
       
-.descripcion {
-    font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings;
-    "wdth" 100;
+.descripcion {     font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .cuerpo{
-    
+    width: 100%;
+    height: 30%;
     padding: 5px;
+    font-size: 1em;
+   
     
 }
